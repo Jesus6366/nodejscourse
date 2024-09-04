@@ -4,13 +4,18 @@
   "description": "tutorial nodejs",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
+    "lodash": "^4.17.21"
+  },
+  "keywords": [],
+  "devDependencies": {
     "nodemon": "^3.1.4"
   }
 }
